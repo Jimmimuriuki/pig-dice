@@ -19,7 +19,7 @@ Each turn, a player repeatedly rolls a die until either a 1 is rolled or the pla
 ## Setup/Installation Requirements
 
 -   Go to the internet
--   Put this link in your search homepage .this link will direct you to the page online.
+-   Put this link https://jimmimuriuki.github.io/pig-dice/ in your search homepage .this link will direct you to the page online.
 -   Roll the die and try to obtain as many points as possible to win the game!.Remember the first player to reach 100 points wins the game
 
 
