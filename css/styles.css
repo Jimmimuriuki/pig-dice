@@ -1,7 +1,43 @@
-p{
+p {
   font-style: oblique;
   font-weight: bolder;
 }
-h1{
+
+h1 {
   text-align: center;
+  color: red;
+}
+
+#jumb {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #8FBC8F;
+}
+
+#cont {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+#jumb2 {
+  margin-left: 0;
+  background-image: url(https://images3.sw-cdn.net/product/picture/710x528_1129429_134457_1529275681.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 300px;
+}
+
+#cont {
+  background-image: url(http://longwallpapers.com/Desktop-Wallpaper/cartoon-wallpaper-mobile-For-Desktop-Wallpaper.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1000px;
+  margin-top: 4%;
+}
+
+#jumb3 {
+  background-color: #FFFACD;
+  padding-left: 5%;
 }

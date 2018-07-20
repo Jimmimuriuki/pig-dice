@@ -1,53 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
 
   <title>Pig Dice</title>
 </head>
+
 <body>
-  <div class="container">
-    <div class="jumbotron">
+  <div id="cont">
+    <div class="jumbotron" id="jumb">
       <h1><strong><em>Pig dice</em></strong></h1>
-      <p></p>
-    </div>
-    <div id="description">
-      <h3><em><strong>Description</strong></em></h3>
-      <p>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":
-      <ul>
-        <li>If the player rolls a 1,they score nothing and it becomes the next  player's turn.</li>
-        <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
-        <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+      <div class="jumbotron" id="jumb2">
 
-      </ul>
-      </p>
-      <p>The first player to score 100 or more points wins.</p>
+        <p></p>
+      </div>
 
+      <div id="description">
+        <h3><em><strong>Description</strong></em></h3>
+        <p>Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":
+          <ul>
+            <li>If the player rolls a 1,they score nothing and it becomes the next player's turn.</li>
+            <li>If the player rolls any other number, it is added to their turn total and the player's turn continues.</li>
+            <li>If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.</li>
+
+          </ul>
+        </p>
+        <p>The first player to score 100 or more points wins.</p>
+
+
+      </div>
     </div>
-    <div class="row">
-      <div class="col-md-6">
-        <h2><b>Player 1</b></h2>
-        <button id="player1-roll" class="btn btn-primary">ROLL!!</button>
-        <button id="player1-hold" class="btn btn-primary">HOLD!!</button>
+    <div class="jumbotron" id="jumb3">
+      <div class="row">
+        <div class="col-md-6">
+          <h2><b>Player 1</b></h2>
+          <button id="player1-roll" class="btn btn-primary">ROLL!!</button>
+          <button id="player1-hold" class="btn btn-primary">HOLD!!</button>
           <h4 id="die-roll-1"><b>Dice Roll:</b></h4>
           <p id="round-total-1">Round Total:</p>
           <p id="total-score-1">Player's Score:</p>
-      </div>
+        </div>
 
 
-      <div class="col-md-6">
-        <h2><b>Player 2</b></h2>
-        <button id="player2-roll" class="btn btn-primary">ROLL!!</button>
-        <button id="player2-hold" class="btn btn-primary">HOLD!!</button>
-        <h4 id="die-roll-2"><b>Dice Roll:</b></h4>
-        <p id="round-total-2">Round Total:</p>
-        <p id="total-score-2">Player's Score:</p>
+        <div class="col-md-6">
+          <h2><b>Player 2</b></h2>
+          <button id="player2-roll" class="btn btn-primary">ROLL!!</button>
+          <button id="player2-hold" class="btn btn-primary">HOLD!!</button>
+          <h4 id="die-roll-2"><b>Dice Roll:</b></h4>
+          <p id="round-total-2">Round Total:</p>
+          <p id="total-score-2">Player's Score:</p>
+        </div>
       </div>
     </div>
+
 
   </div>
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
 </body>
+
 </html>
