@@ -42,3 +42,27 @@ var randNumber = function(){
     alert(this.playerName + " You are the winner!");
   }
 }
+
+
+//USER-INTERFACE-LOGIC
+
+$(document).ready(function() {
+  var player1 = new Player("Player 1");
+  var player2 = new PLayer("Player 2");
+
+// display the player's rollscore and temporary score
+  $("button#player1-roll").click(function(event) {
+    player1.roll = randNumber();
+    $("#die-roll-1").text(player1.roll);
+    player1.rollone();
+    $("#round-total-one").text(player2.tempscore);
+  });
+
+
+  $("button#player2-roll").click(function(event) {
+    player1.roll = randNumber();
+    $("die-roll-2").text(player2.roll);
+    player2.rollone();
+    $("#round-total-2").text(player2.tempscore);
+  });
+});
